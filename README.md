@@ -26,7 +26,7 @@ Architected, designed and staged a data warehouse to assess if weather has an an
 Key Skills Demonstrated:
 - Transform data from transactional systems into an operational data store
 - Create a data warehouse system using dimensional data models
-- Architect a physical database with Snowflake
+- Architect a physical data warehouse with Snowflake
 
 ### [Data Lake Design](https://github.com/iDataist/Data-Lake-Design)
 Developed a cloud data lake solution to replace the on-premise legacy system for a medical data processing company.
