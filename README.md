@@ -2,8 +2,8 @@
 
 - [Data Architecture](#1)
 - [Data Engineering](#2)
-- [Data Science](#3)
 - [Machine Learning Engineering](#4)
+- [Data Science](#3)
 - [Deep Learning](#5)
 - [Deep Reinforcement Learning](#6)
 - [Natural Language Processing](#7)
@@ -52,6 +52,25 @@ Key Skills Demonstrated::
 - Build the Data Lake with Spark
 - Automate the Data Pipeline with Apache Airflow
 
+<a id='4'></a>
+## Machine Learning Engineering
+
+### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
+Built a simple web page which a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network which will predict the sentiment of the entered review.
+
+Key Skills Demonstrated:
+- Text analysis
+- Model deployment via SageMaker
+- APIs for web deployment
+
+### [Create a Plagiarism Detector with SageMaker](https://github.com/iDataist/Create-a-Plagiarism-Detector-with-SageMaker)
+Built a plagiarism detector that examines a text file and performs binary classification, labeling that file as either plagiarized or not depending on how similar that text file is to a provided source text.
+
+Key Skills Demonstrated:
+- Feature engineering
+- Model design and evaluation
+- Model deployment via SageMaker
+
 <a id='3'></a>
 ## Data Science
 
@@ -94,25 +113,6 @@ Key Skills Demonstrated::
 - Rank Based Recommendations
 - User-User Based Collaborative Filtering
 - Matrix Factorization
-
-<a id='4'></a>
-## Machine Learning Engineering
-
-### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
-Built a simple web page which a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network which will predict the sentiment of the entered review.
-
-Key Skills Demonstrated:
-- Text analysis
-- Model deployment via SageMaker
-- APIs for web deployment
-
-### [Create a Plagiarism Detector with SageMaker](https://github.com/iDataist/Create-a-Plagiarism-Detector-with-SageMaker)
-Built a plagiarism detector that examines a text file and performs binary classification, labeling that file as either plagiarized or not depending on how similar that text file is to a provided source text.
-
-Key Skills Demonstrated:
-- Feature engineering
-- Model design and evaluation
-- Model deployment via SageMaker
 
 <a id='5'></a>
 ## Deep Learning
