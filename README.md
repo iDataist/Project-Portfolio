@@ -26,13 +26,14 @@ Architected, designed and staged a data warehouse to assess if weather has an an
 Key Skills Demonstrated:
 - Transform data from transactional systems into an operational data store
 - Create a data warehouse system using dimensional data models
+- Architect a physical database with Snowflake
 
 ### [Data Lake Design](https://github.com/iDataist/Data-Lake-Design)
 Developed a cloud data lake solution to replace the on-premise legacy system for a medical data processing company.
 
 Key Skills Demonstrated:
 - Use appropriate storage and processing frameworks to manage big data
-- Design end-to-end batch and stream processing architecture
+- Design end-to-end batch and stream processing architecture in AWS
 
 ### [Data Governance](https://github.com/iDataist/Data-Governance)
 Created foundational data management tools and artifacts, including documenting data systems, setting up a data catalog, designing better data quality and master data management processes, and formalizing data governance roles.
