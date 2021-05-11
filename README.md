@@ -1,17 +1,18 @@
 ## Table of Content
 
-- [Cloud Developer using Microsoft Azure](#9)
-- [Cloud DevOps using Microsoft Azure](#10)
-- [Data Architecture](#1)
-- [Data Engineering](#2)
-- [Machine Learning Engineering](#4)
-- [Data Science](#3)
-- [Deep Learning](#5)
-- [Deep Reinforcement Learning](#6)
-- [Natural Language Processing](#7)
-- [AI for Healthcare](#8)
+- [Cloud Developing with Microsoft Azure](#1)
+- [Cloud DevOps with Microsoft Azure](#2)
+- [Machine Learning Engineering with Microsoft Azure](#3)
+- [Machine Learning Engineering with AWS Sagemaker](#4)
+- [Data Architecture](#5)
+- [Data Engineering](#6)
+- [Data Science](#7)
+- [Deep Learning](#8)
+- [Deep Reinforcement Learning](#9)
+- [Natural Language Processing](#10)
+- [AI for Healthcare](#11)
 
-<a id='9'></a>
+<a id='1'></a>
 
 ## Cloud Developer using Microsoft Azure
 
@@ -48,7 +49,7 @@ Key Skills Demonstrated:
 - Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues 
 - Creating alerts to trigger auto-scaling on an Azure Kubernetes Service (AKS) cluster
 
-<a id='10'></a>
+<a id='2'></a>
 
 ## Cloud DevOps using Microsoft Azure
 
@@ -75,7 +76,30 @@ Key Skills Demonstrated:
 - Building a CI/CD pipeline, which creates a test environment using Terraform, deploys an application to the test environment, and executes load, integration, and functional tests
 - Ingesting logs and data from tests into Azure Log Analytics to determine where failures may have occurred
 
-<a id='1'></a>
+<a id='3'></a>
+
+## Machine Learning Engineering with Microsoft Azure
+
+<a id='4'></a>
+## Machine Learning Engineering
+
+### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
+Built a simple web page which a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network which will predict the sentiment of the entered review.
+
+Key Skills Demonstrated:
+- Text analysis
+- Model deployment via SageMaker
+- APIs for web deployment
+
+### [Create a Plagiarism Detector with SageMaker](https://github.com/iDataist/Create-a-Plagiarism-Detector-with-SageMaker)
+Built a plagiarism detector that examines a text file and performs binary classification, labeling that file as either plagiarized or not depending on how similar that text file is to a provided source text.
+
+Key Skills Demonstrated:
+- Feature engineering
+- Model design and evaluation
+- Model deployment via SageMaker
+
+<a id='5'></a>
 
 ## Data Architecture
 
@@ -107,7 +131,7 @@ Created foundational data management tools and artifacts, including documenting 
 Key Skills Demonstrated:
 - Establish data governance best practices including metadata management, master data management and data quality management
 
-<a id='2'></a>
+<a id='6'></a>
 ## Data Engineering
 
 ### [Build ETL Pipelines](https://github.com/iDataist/Build-ETL-Pipelines)
@@ -119,26 +143,7 @@ Key Skills Demonstrated::
 - Build the Data Lake with Spark
 - Automate the Data Pipeline with Apache Airflow
 
-<a id='4'></a>
-## Machine Learning Engineering
-
-### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
-Built a simple web page which a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network which will predict the sentiment of the entered review.
-
-Key Skills Demonstrated:
-- Text analysis
-- Model deployment via SageMaker
-- APIs for web deployment
-
-### [Create a Plagiarism Detector with SageMaker](https://github.com/iDataist/Create-a-Plagiarism-Detector-with-SageMaker)
-Built a plagiarism detector that examines a text file and performs binary classification, labeling that file as either plagiarized or not depending on how similar that text file is to a provided source text.
-
-Key Skills Demonstrated:
-- Feature engineering
-- Model design and evaluation
-- Model deployment via SageMaker
-
-<a id='3'></a>
+<a id='7'></a>
 ## Data Science
 
 ### [Find Donors for Charity with Supervised Learning Algorithms](https://github.com/iDataist/Find-Donors-for-Charity)
@@ -181,7 +186,7 @@ Key Skills Demonstrated::
 - User-User Based Collaborative Filtering
 - Matrix Factorization
 
-<a id='5'></a>
+<a id='8'></a>
 ## Deep Learning
 
 ### [Build a Dog Identification App with Convolutional Neural Networks](https://github.com/iDataist/Build-a-Dog-Identification-App)
@@ -208,7 +213,7 @@ Key Skills Demonstrated:
 - Build and train a Deep Convolutional Generative Adversarial Network with PyTorch
 - Optimize hyperparameters
 
-<a id='6'></a>
+<a id='9'></a>
 ## Deep Reinforcement Learning
 
 ### [Navigation with Deep Q-Network](https://github.com/iDataist/Navigation-with-Deep-Q-Network)
@@ -232,7 +237,7 @@ Key Skills Demonstrated:
 - Implement a Multi-Agent Reinforcement Learning Algorithm
 - Build and train neural networks with PyTorch
 
-<a id='7'></a>
+<a id='10'></a>
 ## Natural Language Processing
 
 ### [Part of Speech Tagging](https://github.com/iDataist/Part-of-Speech-Tagging)
@@ -256,7 +261,7 @@ Key Skills Demonstrated:
 - Extract feature representations from raw audio
 - Build deep learning models to obtain a probability distribution over all potential transcriptions
 
-<a id='8'></a>
+<a id='11'></a>
 
 ## AI for Healthcare
 
