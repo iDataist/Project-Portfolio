@@ -14,7 +14,7 @@
 
 <a id='1'></a>
 
-## Cloud Developer with Microsoft Azure
+## Cloud Developing with Microsoft Azure
 
 ### [Deploying a Content Management System to Azure](https://github.com/iDataist/Deploying-a-Content-Management-System-to-Azure)
 Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles. 
