@@ -14,7 +14,7 @@
 
 <a id='1'></a>
 
-## Cloud Developer using Microsoft Azure
+## Cloud Developer with Microsoft Azure
 
 ### [Deploying a Content Management System to Azure](https://github.com/iDataist/Deploying-a-Content-Management-System-to-Azure)
 Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles. 
@@ -51,7 +51,7 @@ Key Skills Demonstrated:
 
 <a id='2'></a>
 
-## Cloud DevOps using Microsoft Azure
+## Cloud DevOps with Microsoft Azure
 
 ### [Deploying a Scalable IaaS Web Server in Azure](https://github.com/iDataist/Deploying-a-Scalable-IaaS-Web-Server-in-Azure)
 Wrote infrastructure as code using Packer and Terraform to deploy a customizable, scalable web server in Azure.
@@ -81,7 +81,8 @@ Key Skills Demonstrated:
 ## Machine Learning Engineering with Microsoft Azure
 
 <a id='4'></a>
-## Machine Learning Engineering
+
+## Machine Learning Engineering with AWS Sagemaker
 
 ### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
 Built a simple web page which a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network which will predict the sentiment of the entered review.
