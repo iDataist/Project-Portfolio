@@ -1,5 +1,7 @@
 ## Table of Content
 
+- [Cloud Developer using Microsoft Azure](#9)
+- [Cloud DevOps using Microsoft Azure](#10)
 - [Data Architecture](#1)
 - [Data Engineering](#2)
 - [Machine Learning Engineering](#4)
@@ -8,6 +10,70 @@
 - [Deep Reinforcement Learning](#6)
 - [Natural Language Processing](#7)
 - [AI for Healthcare](#8)
+
+<a id='9'></a>
+
+## Cloud Developer using Microsoft Azure
+
+### [Deploying a Content Management System to Azure](https://github.com/iDataist/Deploying-a-Content-Management-System-to-Azure)
+Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles. 
+
+Key Skills Demonstrated:
+- Deploying storage solutions for the application to interact with, including a SQL database that contains a user table and an article table for the web app to query, and a Blob Storage container where images are stored
+- Configuring “Sign in with Microsoft” for authentication using OAuth 2.0 and Azure Active Directory, in addition to a simple username/ password login
+- Adding logging to the cloud application to track successful or unsuccessful login attempts
+
+### [Deploying the Neighborly App with Azure Functions](https://github.com/iDataist/Deploying-the-Neighborly-App-with-Azure-Functions)
+Implemented a serverless microservice backend architecture for a social networking web application called Neighborly, a service for neighbors to exchange helpful information, goods, and services. 
+
+Key Skills Demonstrated:
+- Building the backend services that leverage an API to communicate with a MongoDB database 
+- Integrating the client-side application and server-side API endpoints
+- Deploying and managing the service with Azure Kubernetes Service for CI/CD integration
+
+### [Migrating Tech Conference App to Azure](https://github.com/iDataist/Migrating-Tech-Conference-App-to-Azure)
+Migrated a pre-existing conference registration system to Azure and architected a resilient and scalable system in Azure.
+
+Key Skills Demonstrated:
+- Migrating and deploying pre-existing web apps to an Azure App Service
+- Migrating PostgreSQL database backups to Azure Postgres database instances
+- Refactoring the notification logic to Azure Function via service bus queue messages
+
+### [Enhancing Applications](https://github.com/iDataist/Enhancing-Applications)
+Collected and displayed performance and health data about an application post-migration to Azure. 
+
+Key Skills Demonstrated:
+- Setting up Application Insights monitoring on virtual machine scale set (VMSS) 
+- Implementing monitoring in applications to collect telemetry data
+- Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues 
+- Creating alerts to trigger auto-scaling on an Azure Kubernetes Service (AKS) cluster
+
+<a id='10'></a>
+
+## Cloud DevOps using Microsoft Azure
+
+### [Deploying a Scalable IaaS Web Server in Azure](https://github.com/iDataist/Deploying-a-Scalable-IaaS-Web-Server-in-Azure)
+Wrote infrastructure as code using Packer and Terraform to deploy a customizable, scalable web server in Azure.
+
+Key Skills Demonstrated:
+- Creating tagging policies
+- Creating and deploying customized web server images with Packer
+- Writing the infrastructure configuration with Terraform and creating load-balanced web servers
+
+### [Building a CI/CD Pipeline](https://github.com/iDataist/Building-a-CI-CD-pipeline)
+Built a CI/CD pipeline that deploys a Flask Machine Learning application with GitHub Actions, Azure Pipelines, and Azure App Services. 
+
+Key Skills Demonstrated:
+- Leveraging GubHub actions to implement continuous integration that includes install, lint, and test steps
+- Using the Azure pipeline for continuous delivery that deploys a Flask Machine Learning application
+- Testing the prediction capability of the machine learning application by giving it a JSON payload
+
+### [Ensuring Quality Releases](https://github.com/iDataist/Ensuring-Quality-Releases)
+Created a disposable test environment and ran a variety of automated tests.
+
+Key Skills Demonstrated:
+- Building a CI/CD pipeline, which creates a test environment using Terraform, deploys an application to the test environment, and executes load, integration, and functional tests
+- Ingesting logs and data from tests into Azure Log Analytics to determine where failures may have occurred
 
 <a id='1'></a>
 
