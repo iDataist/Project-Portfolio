@@ -1,6 +1,6 @@
 ## Table of Content
 
-- [Cloud Developing with Microsoft Azure](#1)
+- [Cloud Development with Microsoft Azure](#1)
 - [Cloud DevOps with Microsoft Azure](#2)
 - [Machine Learning Engineering with Microsoft Azure](#3)
 - [Machine Learning Engineering with AWS Sagemaker](#4)
@@ -14,7 +14,7 @@
 
 <a id='1'></a>
 
-## Cloud Developing with Microsoft Azure
+## Cloud Development with Microsoft Azure
 
 ### [Deploying a Content Management System to Azure](https://github.com/iDataist/Deploying-a-Content-Management-System-to-Azure)
 Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles. 
