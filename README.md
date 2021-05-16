@@ -80,6 +80,13 @@ Key Skills Demonstrated:
 
 ## Machine Learning Engineering with Microsoft Azure
 
+### [Operationalizing Machine Learning](https://github.com/iDataist/Operationalizing-Machine-Learning)
+Leveraged Azure AutoML to build classifiers that predict whether the client will subscribe to a term deposit with the bank, and deployed the best model to an Azure Container Instance (ACI).
+
+Key Skills Demonstrated:
+- Shipping machine learning models into production in a reliable, reproducible, and automated way
+- Enhancing observability by enabling Application Insights and logging
+
 <a id='4'></a>
 
 ## Machine Learning Engineering with AWS Sagemaker
