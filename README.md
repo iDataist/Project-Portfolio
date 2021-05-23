@@ -19,7 +19,7 @@
 Packaged and deployed a news-sharing application to Kubernetes using a CI/CD pipeline. 
 
 Key Skills Demonstrated:
-- Packaging an application with Docker and distribute it through DockerHub
+- Packaging an application with Docker and distributing it through DockerHub
 - Deploying a docker image to a cluster using Kubernetes resources
 - Using template configuration managers, such as Helm, to implement the parameterization of Kubernetes declarative manifests
 - Automating the release process for an application by implementing a CI/CD pipeline with GitHub Actions and ArgoCD
