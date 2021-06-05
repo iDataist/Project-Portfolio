@@ -75,7 +75,7 @@ Key Skills Demonstrated:
 Built a CI/CD pipeline that deploys a Flask Machine Learning application with GitHub Actions, Azure Pipelines, and Azure App Services. 
 
 Key Skills Demonstrated:
-- Leveraging GubHub actions to implement continuous integration that includes install, lint, and test steps
+- Leveraging GitHub actions to implement continuous integration that includes install, lint, and test steps
 - Using the Azure pipeline for continuous delivery that deploys a Flask Machine Learning application
 - Testing the prediction capability of the machine learning application by giving it a JSON payload
 
