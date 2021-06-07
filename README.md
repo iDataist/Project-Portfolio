@@ -152,7 +152,7 @@ Key Skills Demonstrated:
 <a id='7'></a>
 ## Data Engineering
 
-### [Build ETL Pipelines](https://github.com/iDataist/Build-ETL-Pipelines)
+### [Build Data Pipelines](https://github.com/iDataist/Build-ETL-Pipelines)
 Created a database and ETL pipeline in Postgres and Apache Cassandra, which enabled analysis of user activity data residing in a directory of JSON logs and metadata, then moved the data warehouse to the cloud, and eventually created and automated a set of data pipelines with Apache Airflow.
 
 Key Skills Demonstrated::
