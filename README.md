@@ -1,18 +1,31 @@
 ## Table of Content
-- [Cloud Native Application Architecture](#1)
-- [Cloud Development with Microsoft Azure](#2)
-- [Cloud DevOps with Microsoft Azure](#3)
-- [Machine Learning Engineering with Microsoft Azure](#4)
-- [Machine Learning Engineering with AWS Sagemaker](#5)
-- [Data Architecture](#6)
-- [Data Engineering](#7)
-- [Data Science](#8)
-- [Deep Learning](#9)
-- [Deep Reinforcement Learning](#10)
-- [Natural Language Processing](#11)
-- [AI for Healthcare](#12)
+- [Full Stack Web Development](#1)
+- [Cloud Native Application Architecture](#2)
+- [Cloud Development with Microsoft Azure](#3)
+- [Cloud DevOps with Microsoft Azure](#4)
+- [Machine Learning Engineering with Microsoft Azure](#5)
+- [Cloud Development with AWS](#6)
+- [Cloud DevOps with AWS](#7)
+- [Machine Learning Engineering with AWS Sagemaker](#8)
+- [Data Architecture](#9)
+- [Data Engineering](#10)
+- [Data Science](#11)
+- [Deep Learning](#12)
+- [Deep Reinforcement Learning](#13)
+- [Natural Language Processing](#14)
+- [AI for Healthcare](#15)
 
 <a id='1'></a>
+## Full Stack Web Development
+
+### [Data Modeling for Music Event Site](https://github.com/iDataist/Data-Modeling-for-Music-Event-Site)
+Built the data models to power the API endpoints for the music event site Fyyur.
+
+Key Skills Demonstrated:
+- Building the data models upon which the website relies
+- Architecting and populating the Postgresql database
+
+<a id='2'></a>
 ## Cloud Native Application Architecture
 
 ### [CI/CD with Cloud Native Tooling](https://github.com/iDataist/CI-CD-with-Cloud-Native-Tooling)
@@ -24,7 +37,7 @@ Key Skills Demonstrated:
 - Using template configuration managers, such as Helm, to implement the parameterization of Kubernetes declarative manifests
 - Automating the release process for an application by implementing a CI/CD pipeline with GitHub Actions and ArgoCD
 
-<a id='2'></a>
+<a id='3'></a>
 ## Cloud Development with Microsoft Azure
 ### [Deploying a Content Management System to Azure](https://github.com/iDataist/Deploying-a-Content-Management-System-to-Azure)
 Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles. 
@@ -59,7 +72,7 @@ Key Skills Demonstrated:
 - Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues 
 - Creating alerts to trigger auto-scaling on an Azure Kubernetes Service (AKS) cluster
 
-<a id='3'></a>
+<a id='4'></a>
 
 ## Cloud DevOps with Microsoft Azure
 
@@ -86,7 +99,7 @@ Key Skills Demonstrated:
 - Building a CI/CD pipeline, which creates a test environment using Terraform, deploys an application to the test environment, and executes load, integration, and functional tests
 - Ingesting logs and data from tests into Azure Log Analytics to determine where failures may have occurred
 
-<a id='4'></a>
+<a id='5'></a>
 
 ## Machine Learning Engineering with Microsoft Azure
 
@@ -97,7 +110,13 @@ Key Skills Demonstrated:
 - Shipping machine learning models into production in a reliable, reproducible, and automated way
 - Enhancing observability by enabling Application Insights and logging
 
-<a id='5'></a>
+<a id='6'></a>
+## Cloud Development with AWS
+
+<a id='7'></a>
+## Cloud DevOps with AWS
+
+<a id='8'></a>
 
 ## Machine Learning Engineering with AWS Sagemaker
 
@@ -117,7 +136,7 @@ Key Skills Demonstrated:
 - Model design and evaluation
 - Model deployment via SageMaker
 
-<a id='6'></a>
+<a id='9'></a>
 
 ## Data Architecture
 
@@ -149,7 +168,7 @@ Created foundational data management tools and artifacts, including documenting 
 Key Skills Demonstrated:
 - Establish data governance best practices including metadata management, master data management and data quality management
 
-<a id='7'></a>
+<a id='10'></a>
 ## Data Engineering
 
 ### [Build Data Pipelines](https://github.com/iDataist/Build-ETL-Pipelines)
@@ -161,7 +180,7 @@ Key Skills Demonstrated::
 - Build the Data Lake with Spark
 - Automate the Data Pipeline with Apache Airflow
 
-<a id='8'></a>
+<a id='11'></a>
 ## Data Science
 
 ### [Find Donors for Charity with Supervised Learning Algorithms](https://github.com/iDataist/Find-Donors-for-Charity)
@@ -204,7 +223,7 @@ Key Skills Demonstrated::
 - User-User Based Collaborative Filtering
 - Matrix Factorization
 
-<a id='9'></a>
+<a id='12'></a>
 ## Deep Learning
 
 ### [Build a Dog Identification App with Convolutional Neural Networks](https://github.com/iDataist/Build-a-Dog-Identification-App)
@@ -231,7 +250,7 @@ Key Skills Demonstrated:
 - Build and train a Deep Convolutional Generative Adversarial Network with PyTorch
 - Optimize hyperparameters
 
-<a id='10'></a>
+<a id='13'></a>
 ## Deep Reinforcement Learning
 
 ### [Navigation with Deep Q-Network](https://github.com/iDataist/Navigation-with-Deep-Q-Network)
@@ -255,7 +274,7 @@ Key Skills Demonstrated:
 - Implement a Multi-Agent Reinforcement Learning Algorithm
 - Build and train neural networks with PyTorch
 
-<a id='11'></a>
+<a id='14'></a>
 ## Natural Language Processing
 
 ### [Part of Speech Tagging](https://github.com/iDataist/Part-of-Speech-Tagging)
@@ -279,7 +298,7 @@ Key Skills Demonstrated:
 - Extract feature representations from raw audio
 - Build deep learning models to obtain a probability distribution over all potential transcriptions
 
-<a id='12'></a>
+<a id='15'></a>
 
 ## AI for Healthcare
 
