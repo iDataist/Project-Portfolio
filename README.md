@@ -18,12 +18,19 @@
 <a id='1'></a>
 ## Full Stack Web Development
 
-### [Data Modeling for Music Event Site](https://github.com/iDataist/Data-Modeling-for-Music-Event-Site)
-Built the data models to power the API endpoints for the music event site Fyyur.
+### [Data Modeling for Music Event App](https://github.com/iDataist/Data-Modeling-for-Music-Event-App)
+Built the data models to power the API endpoints for the music event app Fyyur.
 
 Key Skills Demonstrated:
 - Building the data models upon which the website relies
 - Architecting and populating the Postgresql database
+
+### [API Development and Documentation for the Trivia App](https://github.com/iDataist/API-Development-and-Documentation-for-the-Trivia-App)
+Implemented, tested and documented the APIs for the Trivia app.
+
+Key Skills Demonstrated:
+- Using APIs to control and manage a web application with existing data models
+- Implementing tests and documentations for APIs
 
 <a id='2'></a>
 ## Cloud Native Application Architecture
