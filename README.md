@@ -32,6 +32,14 @@ Key Skills Demonstrated:
 - Using APIs to control and manage a web application with existing data models
 - Implementing tests and documentations for APIs
 
+### [Identity and Access Management for the Coffee Shop App](https://github.com/iDataist/Identity-and-Access-Management-for-the-Coffee-Shop-App)
+Built the backend for a coffee shop application and enabled role-based access. 
+
+Key Skills Demonstrated:
+- Implementing authentication and authorization in Flask 
+- Implementing role-based control design patterns
+- Applying software system risk and compliance principles
+
 <a id='2'></a>
 ## Cloud Native Application Architecture
 
