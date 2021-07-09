@@ -40,6 +40,14 @@ Key Skills Demonstrated:
 - Implementing role-based control design patterns
 - Applying software system risk and compliance principles
 
+### [Deploying a Flask App to Kubernetes with a CI/CD pipeline](https://github.com/iDataist/Deploying-a-Flask-App-to-Kubernetes-with-a-CI-CD-pipeline)
+Created a container for a Flask web app using Docker and deployed the container to a Kubernetes cluster using Amazon EKS.
+
+Key Skills Demonstrated:
+- Defining a container environment using a Dockerfile
+- Deploying a Docker container to a Kubernetes cluster using AWS EKS and the AWS command line interface (CLI)
+- Implementing Continuous Integration (CI) and Continuous Delivery (CD) with AWS CloudFormation, AWS CodePipeline and AWS CodeBuild
+
 <a id='2'></a>
 ## Cloud Native Application Architecture
 
