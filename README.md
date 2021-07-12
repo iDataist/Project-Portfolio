@@ -41,7 +41,7 @@ Key Skills Demonstrated:
 - Applying software system risk and compliance principles
 
 ### [Deploying a Flask App to Amazon Elastic Kubernetes Service with a CI/CD pipeline](https://github.com/iDataist/Deploying-a-Flask-App-to-Amazon-Elastic-Kubernetes-Service-with-a-CI-CD-pipeline)
-Created a container for a Flask web app using Docker and deployed the container to Amazon Elastic Kubernetes Service with GitHub Actions, and AWS CloudFormation.
+Created a container for a Flask web app using Docker and deployed the container to Amazon Elastic Kubernetes Service with AWS CloudFormation, AWS CodePipeline and AWS CodeBuild.
 
 Key Skills Demonstrated:
 - Defining a container environment using a Dockerfile
