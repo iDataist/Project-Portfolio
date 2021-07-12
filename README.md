@@ -40,19 +40,19 @@ Key Skills Demonstrated:
 - Implementing role-based control design patterns
 - Applying software system risk and compliance principles
 
-### [Deploying a Flask App to Kubernetes with a CI/CD pipeline](https://github.com/iDataist/Deploying-a-Flask-App-to-Kubernetes-with-a-CI-CD-pipeline)
-Created a container for a Flask web app using Docker and deployed the container to a Kubernetes cluster using Amazon EKS.
+### [Deploying a Flask App to Amazon Elastic Kubernetes Service with a CI/CD pipeline](https://github.com/iDataist/Deploying-a-Flask-App-to-Amazon-Elastic-Kubernetes-Service-with-a-CI-CD-pipeline)
+Created a container for a Flask web app using Docker and deployed the container to Amazon Elastic Kubernetes Service with GitHub Actions, and AWS CloudFormation.
 
 Key Skills Demonstrated:
 - Defining a container environment using a Dockerfile
-- Deploying a Docker container to a Kubernetes cluster using AWS EKS and the AWS command line interface (CLI)
+- Deploying a Docker container to a Kubernetes cluster using Amazon EKS and the AWS command line interface (CLI)
 - Implementing Continuous Integration (CI) and Continuous Delivery (CD) with AWS CloudFormation, AWS CodePipeline and AWS CodeBuild
 
 <a id='2'></a>
 ## Cloud Native Application Architecture
 
-### [CI/CD with Cloud Native Tooling](https://github.com/iDataist/CI-CD-with-Cloud-Native-Tooling)
-Packaged and deployed a news-sharing application to Kubernetes using a CI/CD pipeline. 
+### [Deploying the TechTrends App to Kubernetes with a CI/CD Pipeline](https://github.com/iDataist/Deploying-the-TechTrends-App-to-Kubernetes-with-a-CI-CD-Pipeline)
+Packaged and deployed a news-sharing application to Kubernetes with GitHub Actions and ArgoCD. 
 
 Key Skills Demonstrated:
 - Packaging an application with Docker and distributing it through DockerHub
@@ -107,8 +107,8 @@ Key Skills Demonstrated:
 - Creating and deploying customized web server images with Packer
 - Writing the infrastructure configuration with Terraform and creating load-balanced web servers
 
-### [Building a CI/CD Pipeline](https://github.com/iDataist/Building-a-CI-CD-pipeline)
-Built a CI/CD pipeline that deploys a Flask Machine Learning application with GitHub Actions, Azure Pipelines, and Azure App Services. 
+### [Deploying a Flask Machine Learning App to Azure App Services with a CI/CD Pipeline](https://github.com/iDataist/Deploying-a-Flask-Machine-Learning-App-to-Azure-App-Services-with-a-CI-CD-Pipeline)
+Built a CI/CD pipeline that deploys a Flask Machine Learning application to Azure App Services with GitHub Actions and Azure DevOps. 
 
 Key Skills Demonstrated:
 - Leveraging GitHub actions to implement continuous integration that includes install, lint, and test steps
