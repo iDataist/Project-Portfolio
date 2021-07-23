@@ -7,6 +7,7 @@
 - [Cloud Development with AWS](#6)
 - [Cloud DevOps with AWS](#7)
 - [Machine Learning Engineering with AWS Sagemaker](#8)
+- [Machine Learning DevOps](#16)
 - [Data Architecture](#9)
 - [Data Engineering](#10)
 - [Data Science](#11)
@@ -158,6 +159,28 @@ Key Skills Demonstrated:
 - Feature engineering
 - Model design and evaluation
 - Model deployment via SageMaker
+
+<a id='16'></a>
+
+## Machine Learning DevOps
+
+### [Applying Clean Code Principles](https://github.com/iDataist/Applying-Clean-Code-Principles)
+
+I applied the clean code principles (modular, documented, and tested) to implement a classifier that predicts customer churn.
+
+Key Skills Demonstrated:
+- Write production-ready code
+
+### [Build an ML Pipeline for Short-Term Rental Prices in NYC](https://github.com/iDataist/Building-a-Reproducible-Model-Workflow)
+
+A property management company rents rooms and properties for short periods on various rental platforms. The company needs to estimate the typical price for a given property based on the price of similar properties. New data arrives in bulk every week. I built a pipeline covering data fetching, validation, segregation, train and validation, test, and release. The end-to-end pipeline enables the model retraining with the same cadence.
+
+Key Skills Demonstrated:
+- Create a clean, organized, reproducible, end-to-end machine learning pipeline from scratch using MLflow 
+- Clean and validate the data using pytest 
+- Track experiments, code, and results using GitHub and Weights & Biases 
+- Select the best-performing model for production
+- Deploy a model using MLflow
 
 <a id='9'></a>
 
