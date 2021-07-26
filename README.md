@@ -34,10 +34,10 @@ Key Skills Demonstrated:
 - Implementing tests and documentations for APIs
 
 ### [Identity and Access Management for the Coffee Shop App](https://github.com/iDataist/Identity-and-Access-Management-for-the-Coffee-Shop-App)
-Built the backend for a coffee shop application and enabled role-based access. 
+Built the backend for a coffee shop application and enabled role-based access.
 
 Key Skills Demonstrated:
-- Implementing authentication and authorization in Flask 
+- Implementing authentication and authorization in Flask
 - Implementing role-based control design patterns
 - Applying software system risk and compliance principles
 
@@ -53,7 +53,7 @@ Key Skills Demonstrated:
 ## Cloud Native Application Architecture
 
 ### [Deploying the TechTrends App to Kubernetes with a CI/CD Pipeline](https://github.com/iDataist/Deploying-the-TechTrends-App-to-Kubernetes-with-a-CI-CD-Pipeline)
-Packaged and deployed a news-sharing application to Kubernetes with GitHub Actions and ArgoCD. 
+Packaged and deployed a news-sharing application to Kubernetes with GitHub Actions and ArgoCD.
 
 Key Skills Demonstrated:
 - Packaging an application with Docker and distributing it through DockerHub
@@ -64,7 +64,7 @@ Key Skills Demonstrated:
 <a id='3'></a>
 ## Cloud Development with Microsoft Azure
 ### [Deploying a Content Management System to Azure](https://github.com/iDataist/Deploying-a-Content-Management-System-to-Azure)
-Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles. 
+Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles.
 
 Key Skills Demonstrated:
 - Deploying storage solutions for the application to interact with, including a SQL database that contains a user table and an article table for the web app to query, and a Blob Storage container where images are stored
@@ -72,10 +72,10 @@ Key Skills Demonstrated:
 - Adding logging to the cloud application to track successful or unsuccessful login attempts
 
 ### [Deploying the Neighborly App with Azure Functions](https://github.com/iDataist/Deploying-the-Neighborly-App-with-Azure-Functions)
-Implemented a serverless microservice backend architecture for a social networking web application called Neighborly, a service for neighbors to exchange helpful information, goods, and services. 
+Implemented a serverless microservice backend architecture for a social networking web application called Neighborly, a service for neighbors to exchange helpful information, goods, and services.
 
 Key Skills Demonstrated:
-- Building the backend services that leverage an API to communicate with a MongoDB database 
+- Building the backend services that leverage an API to communicate with a MongoDB database
 - Integrating the client-side application and server-side API endpoints
 - Deploying and managing the service with Azure Kubernetes Service for CI/CD integration
 
@@ -88,12 +88,12 @@ Key Skills Demonstrated:
 - Refactoring the notification logic to Azure Function via service bus queue messages
 
 ### [Enhancing Applications](https://github.com/iDataist/Enhancing-Applications)
-Collected and displayed performance and health data about an application post-migration to Azure. 
+Collected and displayed performance and health data about an application post-migration to Azure.
 
 Key Skills Demonstrated:
-- Setting up Application Insights monitoring on virtual machine scale set (VMSS) 
+- Setting up Application Insights monitoring on virtual machine scale set (VMSS)
 - Implementing monitoring in applications to collect telemetry data
-- Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues 
+- Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues
 - Creating alerts to trigger auto-scaling on an Azure Kubernetes Service (AKS) cluster
 
 <a id='4'></a>
@@ -109,7 +109,7 @@ Key Skills Demonstrated:
 - Writing the infrastructure configuration with Terraform and creating load-balanced web servers
 
 ### [Deploying a Flask Machine Learning App to Azure App Services with a CI/CD Pipeline](https://github.com/iDataist/Deploying-a-Flask-Machine-Learning-App-to-Azure-App-Services-with-a-CI-CD-Pipeline)
-Built a CI/CD pipeline that deploys a Flask Machine Learning application to Azure App Services with GitHub Actions and Azure DevOps. 
+Built a CI/CD pipeline that deploys a Flask Machine Learning application to Azure App Services with GitHub Actions and Azure DevOps.
 
 Key Skills Demonstrated:
 - Leveraging GitHub actions to implement continuous integration that includes install, lint, and test steps
@@ -176,11 +176,29 @@ Key Skills Demonstrated:
 A property management company rents rooms and properties for short periods on various rental platforms. The company needs to estimate the typical price for a given property based on the price of similar properties. New data arrives in bulk every week. I built a pipeline covering data fetching, validation, segregation, train and validation, test, and release. The end-to-end pipeline enables the model retraining with the same cadence.
 
 Key Skills Demonstrated:
-- Create a clean, organized, reproducible, end-to-end machine learning pipeline from scratch using MLflow 
-- Clean and validate the data using pytest 
-- Track experiments, code, and results using GitHub and Weights & Biases 
+- Create a clean, organized, reproducible, end-to-end machine learning pipeline from scratch using MLflow
+- Clean and validate the data using pytest
+- Track experiments, code, and results using GitHub and Weights & Biases
 - Select the best-performing model for production
 - Deploy a model using MLflow
+
+### [Deploying a Scalable ML Pipeline in Production](https://github.com/iDataist/Deploying-a-Scalable-ML-Pipeline-in-Production)
+I developed a CI/CD pipeline to predict salary range based on publicly available Census Bureau data. I created unit tests to monitor the model performance on various slices of the data. Then, I deployed the model using the FastAPI package and create API tests. Both the slice-validation and the API tests were incorporated into the CI/CD framework using GitHub Actions.
+
+Key Skills Demonstrated:
+- Version control the data and models using Data Version Control (DVC)
+- Implement a CI/CD pipeline using GitHub Actions and Heroku
+- Develop a type-checked and auto-documented API using FastAPI
+
+### [ML Model Scoring and Monitoring](https://github.com/iDataist/ML-Model-Scoring-and-Monitoring)
+I built an end-to-end, automated ML pipeline that predicts customer attrition risks. First, I set up processes to ingest data and score, retrain and re-deploy ML models that predict attrition risk. Second, I implemented automatically check for new data and model drift. Lastly, I set up APIs that allow users to access model results, metrics, and diagnostics.
+
+Key Skills Demonstrated:
+- Set up scoring processes
+- Assess model drift, and determine whether models need to be retrained and re-deployed
+- Diagnose operational issues with models, including data integrity and stability problems, timing problems, and dependency issues
+- Set up automated reporting with APIs
+- Automate the DevOps processes required to score and re-deploy ML models
 
 <a id='9'></a>
 
