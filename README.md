@@ -176,14 +176,14 @@ Key Skills Demonstrated:
 A property management company rents rooms and properties for short periods on various rental platforms. The company needs to estimate the typical price for a given property based on the price of similar properties. New data arrives in bulk every week. I built a pipeline covering data fetching, validation, segregation, train and validation, test, and release. The end-to-end pipeline enables the model retraining with the same cadence.
 
 Key Skills Demonstrated:
-- Create a clean, organized, reproducible, end-to-end machine learning pipeline from scratch using MLflow
-- Clean and validate the data using pytest
+- Create a clean, organized, reproducible, end-to-end machine learning pipeline using MLflow
+- Validate the data using pytest
 - Track experiments, code, and results using GitHub and Weights & Biases
 - Select the best-performing model for production
 - Deploy a model using MLflow
 
 ### [Deploying a Scalable ML Pipeline in Production](https://github.com/iDataist/Deploying-a-Scalable-ML-Pipeline-in-Production)
-I developed a CI/CD pipeline to predict salary range based on publicly available Census Bureau data. I created unit tests to monitor the model performance on various slices of the data. Then, I deployed the model using the FastAPI package and create API tests. Both the slice-validation and the API tests were incorporated into the CI/CD framework using GitHub Actions.
+I developed a CI/CD pipeline to predict salary range based on publicly available Census Bureau data. I created tests to monitor the machine learning pipeline. Then, I deployed the model using the FastAPI package and create API tests. The tests were incorporated into the CI/CD framework using GitHub Actions.
 
 Key Skills Demonstrated:
 - Version control the data and models using Data Version Control (DVC)
@@ -195,7 +195,7 @@ I built an end-to-end, automated ML pipeline that predicts customer attrition ri
 
 Key Skills Demonstrated:
 - Set up scoring processes
-- Assess model drift, and determine whether models need to be retrained and re-deployed
+- Assess model drift and determine whether models need to be re-trained and re-deployed
 - Diagnose operational issues with models, including data integrity and stability problems, timing problems, and dependency issues
 - Set up automated reporting with APIs
 - Automate the DevOps processes required to score and re-deploy ML models
