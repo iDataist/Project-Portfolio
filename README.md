@@ -10,6 +10,7 @@
 - [Machine Learning DevOps](#16)
 - [Data Architecture](#9)
 - [Data Engineering](#10)
+- [Data Streaming](#17)
 - [Data Science](#11)
 - [Deep Learning](#12)
 - [Deep Reinforcement Learning](#13)
@@ -238,11 +239,30 @@ Key Skills Demonstrated:
 ### [Build Data Pipelines](https://github.com/iDataist/Build-ETL-Pipelines)
 Created a database and ETL pipeline in Postgres and Apache Cassandra, which enabled analysis of user activity data residing in a directory of JSON logs and metadata, then moved the data warehouse to the cloud, and eventually created and automated a set of data pipelines with Apache Airflow.
 
-Key Skills Demonstrated::
+Key Skills Demonstrated:
 - Data Modeling with Postgres and Apache Cassandra
 - Build the Data Warehouse with S3 and Redshift
 - Build the Data Lake with Spark
 - Automate the Data Pipeline with Apache Airflow
+
+<a id='17'></a>
+## Data Streaming
+### [Data Ingestion with Kafka and Kafka Streaming](https://github.com/iDataist/Data-Ingestion-with-Kafka-and-Kafka-Streaming)
+I streamed public transit status from [Chicago Transit Authority](https://www.transitchicago.com/data/) using Kafka and the Kafka ecosystem and built a stream processing application that shows the status of trains in real-time. I used Confluent Kafka to produce events, REST Proxy to send events over HTTP, and Kafka Connect to collect data from a Postgres database, all of which are sources into Kafka. Then, I used KSQL to combine related data models into a single topic ready for consumption, and built a simple Python application that ingests data from the Kafka topics for analysis. Finally, I leveraged the Faust Python Stream Processing library to further transform train station data into a more streamlined representation. Using stateful processing, I showed whether passenger volume is increasing, decreasing, or staying steady.
+
+Key Skills Demonstrated:
+- Produce and consume topics with Confluent Kafka
+- Collect data from databases with Kafka Connect
+- Producing data over REST with Kafka REST Proxy
+- Stream Processing with Faust Python Library and KSQL
+
+### [Streaming API Development and Documentation](https://github.com/iDataist/Streaming-API-Development-and-Documentation)
+The Step Trending Electronic Data Interface (STEDI) application assesses fall risk for seniors. When a senior takes a test, they are scored using an index that reflects the likelihood of falling and potentially sustaining an injury in the course of walking. STEDI uses a Redis datastore for risk scores and other data. Using Spark, I aggregated Kafka Connect Redis Source events and Business Events to create a Kafka topic containing anonymized risk scores of seniors in the clinic and generated a population risk graph.
+
+Key Skills Demonstrated:
+- Consuming and processing data from Apache Kafka with Spark Structured Streaming
+- Creating a DataFrame as an aggregation of source DataFrames
+- Sinking a composite DataFrame to Kafka
 
 <a id='11'></a>
 ## Data Science
@@ -250,7 +270,7 @@ Key Skills Demonstrated::
 ### [Find Donors for Charity with Supervised Learning Algorithms](https://github.com/iDataist/Find-Donors-for-Charity)
 Evaluated and optimized several different supervised learning algorithms to determine which algorithm will provide the highest donation yield while under some marketing constraints.
 
-Key Skills Demonstrated::
+Key Skills Demonstrated:
 - Supervised learning
 - Model evaluation and comparison
 - Tuning models according to constraints
@@ -258,7 +278,7 @@ Key Skills Demonstrated::
 ### [Create Customer Segments with Unsupervised Learning Techniques](https://github.com/iDataist/Create-Customer-Segments)
 Applied unsupervised learning techniques to organize the general population into clusters, then used those clusters to determine which of them were most likely to be purchasers for a mailout campaign.
 
-Key Skills Demonstrated::
+Key Skills Demonstrated:
 - Data cleaning
 - Dimensionality reduction with PCA
 - Unsupervised clustering
@@ -266,14 +286,14 @@ Key Skills Demonstrated::
 ### [Create an Image Classifier Using a Deep Neural Network](https://github.com/iDataist/Create-an-Image-Classifier)
 Created an image classification application, which trains a deep learning model on a dataset of images and then uses the trained model to classify new images.
 
-Key Skills Demonstrated::
+Key Skills Demonstrated:
 - PyTorch and neural networks
 - Model validation and evaluation
 
 ### [Build a Machine Learning Pipeline to Categorize Emergency Text Messages](https://github.com/iDataist/Build-Pipelines-to-Classify-Messages)
 Built a data pipeline to prepare the message data from major natural disasters around the world and a machine learning pipeline to categorize emergency text messages based on the need communicated by the sender, and deployed the pipelines to create a website app that classify messages.
 
-Key Skills Demonstrated::
+Key Skills Demonstrated:
 - ETL Pipeline
 - Machine Learning Pipeline
 - Flask Web App
@@ -281,7 +301,7 @@ Key Skills Demonstrated::
 ### [Design a Recommendation Engine](https://github.com/iDataist/Design-a-Recommendation-Engine)
 Analyzed the interactions that users had with articles on the IBM Watson Studio platform, and designed a recommendation engine on new articles that users might like.
 
-Key Skills Demonstrated::
+Key Skills Demonstrated:
 - Exploratory Data Analysis
 - Rank Based Recommendations
 - User-User Based Collaborative Filtering
