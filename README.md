@@ -1,24 +1,24 @@
 ## Table of Content
 
-- [Full Stack Web Development](#1)
-- [Cloud Native Application Architecture](#2)
-- [Cloud Development with Microsoft Azure](#3)
-- [Cloud DevOps with Microsoft Azure](#4)
-- [Machine Learning Engineering with Microsoft Azure](#5)
-- [Cloud Development with AWS](#6)
-- [Cloud DevOps with AWS](#7)
-- [Machine Learning Engineering with AWS Sagemaker](#8)
-- [Machine Learning DevOps](#16)
+- [Full Stack Web Development](#0)
+- [Cloud Native Application Architecture](#1)
+- [AWS Cloud Architect](#2)
+- [Cloud DevOps with AWS](#3)
+- [Machine Learning Engineering with AWS Sagemaker](#4)
+- [Machine Learning DevOps](#5)
+- [Cloud Development with Microsoft Azure](#6)
+- [Cloud DevOps with Microsoft Azure](#7)
+- [Machine Learning Engineering with Microsoft Azure](#8)
 - [Data Architecture](#9)
 - [Data Engineering](#10)
-- [Data Streaming](#17)
-- [Data Science](#11)
-- [Deep Learning](#12)
-- [Deep Reinforcement Learning](#13)
-- [Natural Language Processing](#14)
-- [AI for Healthcare](#15)
+- [Data Streaming](#11)
+- [Data Science](#12)
+- [Deep Learning](#13)
+- [Deep Reinforcement Learning](#14)
+- [Natural Language Processing](#15)
+- [AI for Healthcare](#16)
 
-<a id='1'></a>
+<a id='0'></a>
 ## Full Stack Web Development
 
 ### [Data Modeling for Music Event App](https://github.com/iDataist/Data-Modeling-for-Music-Event-App)
@@ -51,7 +51,7 @@ Key Skills Demonstrated:
 - Deploying a Docker container to a Kubernetes cluster using Amazon EKS and the AWS command line interface (CLI)
 - Implementing Continuous Integration (CI) and Continuous Delivery (CD) with AWS CloudFormation, AWS CodePipeline and AWS CodeBuild
 
-<a id='2'></a>
+<a id='1'></a>
 ## Cloud Native Application Architecture
 
 ### [Deploying the TechTrends App to Kubernetes with a CI/CD Pipeline](https://github.com/iDataist/Deploying-the-TechTrends-App-to-Kubernetes-with-a-CI-CD-Pipeline)
@@ -62,6 +62,108 @@ Key Skills Demonstrated:
 - Deploying a docker image to a cluster using Kubernetes resources
 - Using template configuration managers, such as Helm, to implement the parameterization of Kubernetes declarative manifests
 - Automating the release process for an application by implementing a CI/CD pipeline with GitHub Actions and ArgoCD
+
+<a id='2'></a>
+## AWS Cloud Architect
+
+<a id='3'></a>
+## Cloud DevOps with AWS
+
+### [Deploy Static Website on AWS](https://github.com/iDataist/Deploy-Static-Website-on-AWS)
+Deployed a static website to AWS.
+
+Key skills demonstrated:
+- Deploying a static website to AWS
+- Creating an S3 bucket, configuring the bucket for website hosting, and securing it using IAM policies
+- Uploading the website files to S3 bucket and speeding up content delivery using AWS’s content distribution network service, CloudFront
+- Accessing the website in a browser using the unique S3 endpoint
+### [Deploy a High Availability Web App using CloudFormation](https://github.com/iDataist/Deploy-a-High-Availability-Web-App-using-CloudFormation)
+Deployed web servers for a highly available web app using CloudFormation.
+
+Key skills demonstrated:
+- Writing the code that creates and deploys the infrastructure and application for Instagram-like app from the ground up
+- Deploying the networking components followed by servers, security roles, and software
+
+### [Deploy an Application to AWS with CircleCI and Ansible](https://github.com/iDataist/Deploy-an-Application-to-AWS-with-CircleCI-and-Ansible)
+Built a CI/CD pipeline using CircleCI and Ansible.
+
+Key skills demonstrated:
+- Creating a pipeline that spins up three servers and uses Ansible to deploy an application on the servers
+- Using the “Blue/Green” deployment strategy to deploy additional features to those servers
+
+### [Deploy a Flask App Using Kubernetes](https://github.com/iDataist/Deploy-a-Flask-App-Using-Kubernetes)
+Deployed an elastic and fault-tolerant Machine Learning API using Kubernetes.
+
+Key skills demonstrated:
+- Configuring the microservice to be highly available by using Kubernetes best practices
+- Validating the design by load testing the service and verifying the application architecture performs as designed
+
+### [Deploy a Recommendation Engine to Amazon EKS with CircleCI](https://github.com/iDataist/Deploy-a-Recommendation-Engine-to-Amazon-EKS-with-CircleCI)
+Leveraged CircleCI to develop a CI/CD pipeline and deploy a recommendation engine to Elastic Kubernetes Service.
+
+Key skills demonstrated:
+- Using CircleCI to implement Continuous Integration and Continuous Deployment
+- Building CircleCI pipelines
+- Building Docker containers in the pipelines
+- Working with eksctl and kubectl to build and deploy Kubernetes clusters
+<a id='4'></a>
+## Machine Learning Engineering with AWS Sagemaker
+
+### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
+Built a simple web page which a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network which will predict the sentiment of the entered review.
+
+Key Skills Demonstrated:
+- Text analysis
+- Model deployment via SageMaker
+- APIs for web deployment
+
+### [Create a Plagiarism Detector with SageMaker](https://github.com/iDataist/Create-a-Plagiarism-Detector-with-SageMaker)
+Built a plagiarism detector that examines a text file and performs binary classification, labeling that file as either plagiarized or not depending on how similar that text file is to a provided source text.
+
+Key Skills Demonstrated:
+- Feature engineering
+- Model design and evaluation
+- Model deployment via SageMaker
+
+<a id='5'></a>
+
+## Machine Learning DevOps
+
+### [Applying Clean Code Principles](https://github.com/iDataist/Applying-Clean-Code-Principles)
+
+I applied the clean code principles (modular, documented, and tested) to implement a classifier that predicts customer churn.
+
+Key Skills Demonstrated:
+- Write production-ready code
+
+### [Build an ML Pipeline for Short-Term Rental Prices in NYC](https://github.com/iDataist/Building-a-Reproducible-Model-Workflow)
+
+A property management company rents rooms and properties for short periods on various rental platforms. The company needs to estimate the typical price for a given property based on the price of similar properties. New data arrives in bulk every week. I built a pipeline covering data fetching, validation, segregation, train and validation, test, and release. The end-to-end pipeline enables the model retraining with the same cadence.
+
+Key Skills Demonstrated:
+- Create a clean, organized, reproducible, end-to-end machine learning pipeline using MLflow
+- Validate the data using pytest
+- Track experiments, code, and results using GitHub and Weights & Biases
+- Select the best-performing model for production
+- Deploy a model using MLflow
+
+### [Deploying a Scalable ML Pipeline in Production](https://github.com/iDataist/Deploying-a-Scalable-ML-Pipeline-in-Production)
+I developed a CI/CD pipeline to predict salary range based on publicly available Census Bureau data. I created tests to monitor the machine learning pipeline. Then, I deployed the model using the FastAPI package and create API tests. The tests were incorporated into the CI/CD framework using GitHub Actions.
+
+Key Skills Demonstrated:
+- Version control the data and models using Data Version Control (DVC)
+- Implement a CI/CD pipeline using GitHub Actions and Heroku
+- Develop a type-checked and auto-documented API using FastAPI
+
+### [ML Model Scoring and Monitoring](https://github.com/iDataist/ML-Model-Scoring-and-Monitoring)
+I built an end-to-end, automated ML pipeline that predicts customer attrition risks. First, I set up processes to ingest data and score, retrain and re-deploy ML models that predict attrition risk. Second, I implemented automatically check for new data and model drift. Lastly, I set up APIs that allow users to access model results, metrics, and diagnostics.
+
+Key Skills Demonstrated:
+- Set up scoring processes
+- Assess model drift and determine whether models need to be re-trained and re-deployed
+- Diagnose operational issues with models, including data integrity and stability problems, timing problems, and dependency issues
+- Set up automated reporting with APIs
+- Automate the DevOps processes required to score and re-deploy ML models
 
 <a id='3'></a>
 ## Cloud Development with Microsoft Azure
@@ -136,71 +238,7 @@ Key Skills Demonstrated:
 - Shipping machine learning models into production in a reliable, reproducible, and automated way
 - Enhancing observability by enabling Application Insights and logging
 
-<a id='6'></a>
-## Cloud Development with AWS
 
-<a id='7'></a>
-## Cloud DevOps with AWS
-
-<a id='8'></a>
-
-## Machine Learning Engineering with AWS Sagemaker
-
-### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
-Built a simple web page which a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network which will predict the sentiment of the entered review.
-
-Key Skills Demonstrated:
-- Text analysis
-- Model deployment via SageMaker
-- APIs for web deployment
-
-### [Create a Plagiarism Detector with SageMaker](https://github.com/iDataist/Create-a-Plagiarism-Detector-with-SageMaker)
-Built a plagiarism detector that examines a text file and performs binary classification, labeling that file as either plagiarized or not depending on how similar that text file is to a provided source text.
-
-Key Skills Demonstrated:
-- Feature engineering
-- Model design and evaluation
-- Model deployment via SageMaker
-
-<a id='16'></a>
-
-## Machine Learning DevOps
-
-### [Applying Clean Code Principles](https://github.com/iDataist/Applying-Clean-Code-Principles)
-
-I applied the clean code principles (modular, documented, and tested) to implement a classifier that predicts customer churn.
-
-Key Skills Demonstrated:
-- Write production-ready code
-
-### [Build an ML Pipeline for Short-Term Rental Prices in NYC](https://github.com/iDataist/Building-a-Reproducible-Model-Workflow)
-
-A property management company rents rooms and properties for short periods on various rental platforms. The company needs to estimate the typical price for a given property based on the price of similar properties. New data arrives in bulk every week. I built a pipeline covering data fetching, validation, segregation, train and validation, test, and release. The end-to-end pipeline enables the model retraining with the same cadence.
-
-Key Skills Demonstrated:
-- Create a clean, organized, reproducible, end-to-end machine learning pipeline using MLflow
-- Validate the data using pytest
-- Track experiments, code, and results using GitHub and Weights & Biases
-- Select the best-performing model for production
-- Deploy a model using MLflow
-
-### [Deploying a Scalable ML Pipeline in Production](https://github.com/iDataist/Deploying-a-Scalable-ML-Pipeline-in-Production)
-I developed a CI/CD pipeline to predict salary range based on publicly available Census Bureau data. I created tests to monitor the machine learning pipeline. Then, I deployed the model using the FastAPI package and create API tests. The tests were incorporated into the CI/CD framework using GitHub Actions.
-
-Key Skills Demonstrated:
-- Version control the data and models using Data Version Control (DVC)
-- Implement a CI/CD pipeline using GitHub Actions and Heroku
-- Develop a type-checked and auto-documented API using FastAPI
-
-### [ML Model Scoring and Monitoring](https://github.com/iDataist/ML-Model-Scoring-and-Monitoring)
-I built an end-to-end, automated ML pipeline that predicts customer attrition risks. First, I set up processes to ingest data and score, retrain and re-deploy ML models that predict attrition risk. Second, I implemented automatically check for new data and model drift. Lastly, I set up APIs that allow users to access model results, metrics, and diagnostics.
-
-Key Skills Demonstrated:
-- Set up scoring processes
-- Assess model drift and determine whether models need to be re-trained and re-deployed
-- Diagnose operational issues with models, including data integrity and stability problems, timing problems, and dependency issues
-- Set up automated reporting with APIs
-- Automate the DevOps processes required to score and re-deploy ML models
 
 <a id='9'></a>
 
@@ -246,7 +284,7 @@ Key Skills Demonstrated:
 - Build the Data Lake with Spark
 - Automate the Data Pipeline with Apache Airflow
 
-<a id='17'></a>
+<a id='11'></a>
 ## Data Streaming
 ### [Data Ingestion with Kafka and Kafka Streaming](https://github.com/iDataist/Data-Ingestion-with-Kafka-and-Kafka-Streaming)
 I streamed public transit status from [Chicago Transit Authority](https://www.transitchicago.com/data/) using Kafka and the Kafka ecosystem and built a stream processing application that shows the status of trains in real-time. I used Confluent Kafka to produce events, REST Proxy to send events over HTTP, and Kafka Connect to collect data from a Postgres database, all of which are sources into Kafka. Then, I used KSQL to combine related data models into a single topic ready for consumption, and built a simple Python application that ingests data from the Kafka topics for analysis. Finally, I leveraged the Faust Python Stream Processing library to further transform train station data into a more streamlined representation. Using stateful processing, I showed whether passenger volume is increasing, decreasing, or staying steady.
@@ -265,7 +303,7 @@ Key Skills Demonstrated:
 - Creating a DataFrame as an aggregation of source DataFrames
 - Sinking a composite DataFrame to Kafka
 
-<a id='11'></a>
+<a id='12'></a>
 ## Data Science
 
 ### [Find Donors for Charity with Supervised Learning Algorithms](https://github.com/iDataist/Find-Donors-for-Charity)
@@ -308,7 +346,7 @@ Key Skills Demonstrated:
 - User-User Based Collaborative Filtering
 - Matrix Factorization
 
-<a id='12'></a>
+<a id='13'></a>
 ## Deep Learning
 
 ### [Build a Dog Identification App with Convolutional Neural Networks](https://github.com/iDataist/Build-a-Dog-Identification-App)
@@ -335,7 +373,7 @@ Key Skills Demonstrated:
 - Build and train a Deep Convolutional Generative Adversarial Network with PyTorch
 - Optimize hyperparameters
 
-<a id='13'></a>
+<a id='14'></a>
 ## Deep Reinforcement Learning
 
 ### [Navigation with Deep Q-Network](https://github.com/iDataist/Navigation-with-Deep-Q-Network)
@@ -359,7 +397,7 @@ Key Skills Demonstrated:
 - Implement a Multi-Agent Reinforcement Learning Algorithm
 - Build and train neural networks with PyTorch
 
-<a id='14'></a>
+<a id='15'></a>
 ## Natural Language Processing
 
 ### [Part of Speech Tagging](https://github.com/iDataist/Part-of-Speech-Tagging)
@@ -383,7 +421,7 @@ Key Skills Demonstrated:
 - Extract feature representations from raw audio
 - Build deep learning models to obtain a probability distribution over all potential transcriptions
 
-<a id='15'></a>
+<a id='16'></a>
 
 ## AI for Healthcare
 
