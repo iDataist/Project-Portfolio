@@ -54,7 +54,7 @@ Key Skills Demonstrated:
 <a id='1'></a>
 ## Cloud Native Application Architecture
 
-### [Deploying the TechTrends App to Kubernetes with a CI/CD Pipeline](https://github.com/iDataist/Deploying-the-TechTrends-App-to-Kubernetes-with-a-CI-CD-Pipeline)
+### [Deploy the TechTrends App to Kubernetes with a CI/CD Pipeline](https://github.com/iDataist/Deploy-the-TechTrends-App-to-Kubernetes-with-a-CI-CD-Pipeline)
 Packaged and deployed a news-sharing application to Kubernetes with GitHub Actions and ArgoCD.
 
 Key Skills Demonstrated:
@@ -129,7 +129,7 @@ Key Skills Demonstrated:
 
 ## Machine Learning DevOps
 
-### [Applying Clean Code Principles](https://github.com/iDataist/Applying-Clean-Code-Principles)
+### [Apply Clean Code Principles](https://github.com/iDataist/Apply-Clean-Code-Principles)
 
 I applied the clean code principles (modular, documented, and tested) to implement a classifier that predicts customer churn.
 
@@ -147,7 +147,7 @@ Key Skills Demonstrated:
 - Select the best-performing model for production
 - Deploy a model using MLflow
 
-### [Deploying a Scalable ML Pipeline in Production](https://github.com/iDataist/Deploying-a-Scalable-ML-Pipeline-in-Production)
+### [Deploy a Scalable ML Pipeline in Production](https://github.com/iDataist/Deploy-a-Scalable-ML-Pipeline-in-Production)
 I developed a CI/CD pipeline to predict salary range based on publicly available Census Bureau data. I created tests to monitor the machine learning pipeline. Then, I deployed the model using the FastAPI package and create API tests. The tests were incorporated into the CI/CD framework using GitHub Actions.
 
 Key Skills Demonstrated:
@@ -167,7 +167,8 @@ Key Skills Demonstrated:
 
 <a id='3'></a>
 ## Cloud Development with Microsoft Azure
-### [Deploying a Content Management System to Azure](https://github.com/iDataist/Deploying-a-Content-Management-System-to-Azure)
+
+### [Deploy a Content Management System to Azure](https://github.com/iDataist/Deploy-a-Content-Management-System-to-Azure)
 Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles.
 
 Key Skills Demonstrated:
@@ -175,7 +176,7 @@ Key Skills Demonstrated:
 - Configuring “Sign in with Microsoft” for authentication using OAuth 2.0 and Azure Active Directory, in addition to a simple username/ password login
 - Adding logging to the cloud application to track successful or unsuccessful login attempts
 
-### [Deploying the Neighborly App with Azure Functions](https://github.com/iDataist/Deploying-the-Neighborly-App-with-Azure-Functions)
+### [Deploy the Neighborly App with Azure Functions](https://github.com/iDataist/Deploy-the-Neighborly-App-with-Azure-Functions)
 Implemented a serverless microservice backend architecture for a social networking web application called Neighborly, a service for neighbors to exchange helpful information, goods, and services.
 
 Key Skills Demonstrated:
@@ -183,7 +184,7 @@ Key Skills Demonstrated:
 - Integrating the client-side application and server-side API endpoints
 - Deploying and managing the service with Azure Kubernetes Service for CI/CD integration
 
-### [Migrating Tech Conference App to Azure](https://github.com/iDataist/Migrating-Tech-Conference-App-to-Azure)
+### [Migrate Tech Conference App to Azure](https://github.com/iDataist/Migrate-Tech-Conference-App-to-Azure)
 Migrated a pre-existing conference registration system to Azure and architected a resilient and scalable system in Azure.
 
 Key Skills Demonstrated:
@@ -191,7 +192,7 @@ Key Skills Demonstrated:
 - Migrating PostgreSQL database backups to Azure Postgres database instances
 - Refactoring the notification logic to Azure Function via service bus queue messages
 
-### [Enhancing Applications](https://github.com/iDataist/Enhancing-Applications)
+### [Enhance Applications](https://github.com/iDataist/Enhance-Applications)
 Collected and displayed performance and health data about an application post-migration to Azure.
 
 Key Skills Demonstrated:
@@ -204,7 +205,7 @@ Key Skills Demonstrated:
 
 ## Cloud DevOps with Microsoft Azure
 
-### [Deploying a Scalable IaaS Web Server in Azure](https://github.com/iDataist/Deploying-a-Scalable-IaaS-Web-Server-in-Azure)
+### [Deploy a Scalable IaaS Web Server in Azure](https://github.com/iDataist/Deploy-a-Scalable-IaaS-Web-Server-in-Azure)
 Wrote infrastructure as code using Packer and Terraform to deploy a customizable, scalable web server in Azure.
 
 Key Skills Demonstrated:
@@ -212,7 +213,7 @@ Key Skills Demonstrated:
 - Creating and deploying customized web server images with Packer
 - Writing the infrastructure configuration with Terraform and creating load-balanced web servers
 
-### [Deploying a Flask Machine Learning App to Azure App Services with a CI/CD Pipeline](https://github.com/iDataist/Deploying-a-Flask-Machine-Learning-App-to-Azure-App-Services-with-a-CI-CD-Pipeline)
+### [Deploy a Flask Machine Learning App to Azure App Services with a CI/CD Pipeline](https://github.com/iDataist/Deploy-a-Flask-Machine-Learning-App-to-Azure-App-Services-with-a-CI-CD-Pipeline)
 Built a CI/CD pipeline that deploys a Flask Machine Learning application to Azure App Services with GitHub Actions and Azure DevOps.
 
 Key Skills Demonstrated:
@@ -220,7 +221,7 @@ Key Skills Demonstrated:
 - Using the Azure pipeline for continuous delivery that deploys a Flask Machine Learning application
 - Testing the prediction capability of the machine learning application by giving it a JSON payload
 
-### [Ensuring Quality Releases](https://github.com/iDataist/Ensuring-Quality-Releases)
+### [Ensure Quality Releases](https://github.com/iDataist/Ensure-Quality-Releases)
 Created a disposable test environment and ran a variety of automated tests.
 
 Key Skills Demonstrated:
@@ -231,7 +232,7 @@ Key Skills Demonstrated:
 
 ## Machine Learning Engineering with Microsoft Azure
 
-### [Operationalizing Machine Learning](https://github.com/iDataist/Operationalizing-Machine-Learning)
+### [Operationalize Machine Learning](https://github.com/iDataist/Operationalize-Machine-Learning)
 Leveraged Azure AutoML to build classifiers that predict whether the client will subscribe to a term deposit with the bank, and deployed the best model to an Azure Container Instance (ACI).
 
 Key Skills Demonstrated:
