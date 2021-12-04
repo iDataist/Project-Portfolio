@@ -106,6 +106,7 @@ Key skills demonstrated:
 - Building CircleCI pipelines
 - Building Docker containers in the pipelines
 - Working with eksctl and kubectl to build and deploy Kubernetes clusters
+
 <a id='4'></a>
 ## Machine Learning Engineering with AWS Sagemaker
 
@@ -165,7 +166,7 @@ Key Skills Demonstrated:
 - Set up automated reporting with APIs
 - Automate the DevOps processes required to score and re-deploy ML models
 
-<a id='3'></a>
+<a id='6'></a>
 ## Cloud Development with Microsoft Azure
 
 ### [Deploy a Content Management System to Azure](https://github.com/iDataist/Deploy-a-Content-Management-System-to-Azure)
@@ -201,7 +202,7 @@ Key Skills Demonstrated:
 - Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues
 - Creating alerts to trigger auto-scaling on an Azure Kubernetes Service (AKS) cluster
 
-<a id='4'></a>
+<a id='7'></a>
 
 ## Cloud DevOps with Microsoft Azure
 
@@ -228,7 +229,7 @@ Key Skills Demonstrated:
 - Building a CI/CD pipeline, which creates a test environment using Terraform, deploys an application to the test environment, and executes load, integration, and functional tests
 - Ingesting logs and data from tests into Azure Log Analytics to determine where failures may have occurred
 
-<a id='5'></a>
+<a id='8'></a>
 
 ## Machine Learning Engineering with Microsoft Azure
 
@@ -238,8 +239,6 @@ Leveraged Azure AutoML to build classifiers that predict whether the client will
 Key Skills Demonstrated:
 - Shipping machine learning models into production in a reliable, reproducible, and automated way
 - Enhancing observability by enabling Application Insights and logging
-
-
 
 <a id='9'></a>
 
