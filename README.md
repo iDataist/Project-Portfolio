@@ -143,12 +143,12 @@ Key Skills Demonstrated:
 In this project, I participated in several mock scenarios as an SRE. In the first scenario, Release Night, I utilized capacity management skills and demonstrated how to maintain an as-built document. In the second scenario, I utilized on-call best practices to have an effective and productive on-call, completed with a post-mortem. Finally, in the third scenario, I developed a toil reduction and automation plan.
 
 Key Skills Demonstrated:
-• Mitigate capacity risks by utilizing capacity management
+- Mitigate capacity risks by utilizing capacity management
 best practice
-• Maintain an as-built document
-• Exhibit on-call best practices to have balanced and effective on-calls
-• Effectively write blameless post-mortems
-• Develop a toil reduction plan
+- Maintain an as-built document
+- Exhibit on-call best practices to have balanced and effective on-calls
+- Effectively write blameless post-mortems
+- Develop a toil reduction plan
 
 <a id='5'></a>
 ## Machine Learning Engineering with AWS Sagemaker
