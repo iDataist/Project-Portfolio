@@ -4,62 +4,20 @@
 - [Cloud Native Application Architecture](#1)
 - [AWS Cloud Architecture](#2)
 - [Cloud DevOps with AWS](#3)
-- [Site Reliability Engineer](#17)
-- [Machine Learning Engineering with AWS Sagemaker](#4)
-- [Machine Learning DevOps](#5)
-- [Cloud Development with Microsoft Azure](#6)
-- [Cloud DevOps with Microsoft Azure](#7)
-- [Machine Learning Engineering with Microsoft Azure](#8)
-- [Data Architecture](#9)
-- [Data Engineering](#10)
-- [Data Streaming](#11)
-- [Data Science](#12)
-- [Deep Learning](#13)
-- [Deep Reinforcement Learning](#14)
-- [Natural Language Processing](#15)
-- [AI for Healthcare](#16)
-
-<a id='17'></a>
-## Site Reliability Engineer
-
-### [Observing Cloud Resources](https://github.com/iDataist/Observing-Cloud-Resources)
-In this project, I configured a monitoring software stack to collect and display a variety of metrics for commonly used cloud resources. Additionally, I established and configured rules for alerting and set parameters to be notified. I also tested and observed the monitoring stack to apply SRE methodologies and practices.
-
-Key Skills Demonstrated:
-- Establish the Prometheus/Grafana monitoring stack
-- Create a dashboard for host metrics (latency, errors, CPU/RAM and Disk I/O) and app metrics
-- Create alerts for application (availability, latency) metrics, monitor an endpoint, and trigger an alert if the endpoint is down
-
-### [Deploying HA Infrastructure](https://github.com/iDataist/Deploying-High-Availability-Infrastructure)
-In this project, I designed and deployed HA infrastructure through Terraform and deployed it to AWS. First, I defined SLOs and SLIs and create a dashboard in Grafana for those objectives. Second, I created a disaster recovery plan and defined high-availability infrastructure. Lastly, I wrote Terraform scripts to deploy the infrastructure to multiple AWS regions.
-
-Key Skills Demonstrated:
-- Create SLI/SLO dashboards in Grafana which display these metrics in a way that can be consumed by non-technical personnel
-- Create a plan to allow for high availability by selecting optimal server geography and communication
-- Create a disaster recovery plan based on a designed
-high-availability environment
-- Use Terraform to create identical IT assets in different
-regions
-- Create full geo-replication and automated backups for SQL databases
-
-### [Deployment Roulett](https://github.com/iDataist/Deployment-Roulette)
-In this project, I deployed apps using different deployment strategies. Some of the microservices have scaling or availability issues, and some don’t have a deployment strategy in place. I identified failing applications and implement fixes to resolve the problems. I also created an architecture diagram that communicates the status of the cloud environment to improve the onboarding of future developers.
-
-Key Skills Demonstrated:
-- Implement rolling, canary, and blue-green deployment strategies
-- Automate microservice cluster scaling
-- Visualize self-healing system design by analyzing and creating diagrams
-
-### [Plan, Reduce, Repeat]()
-In this project, I participated in several mock scenarios as an SRE. In the first scenario, Release Night, I utilized capacity management skills and demonstrated how to maintain an as-built document. In the second scenario, I utilized on-call best practices to have an effective and productive on-call, completed with a post-mortem. Finally, in the third scenario, I developed a toil reduction and automation plan.
-
-Key Skills Demonstrated:
-• Mitigate capacity risks by utilizing capacity management
-best practice
-• Maintain an as-built document
-• Exhibit on-call best practices to have balanced and effective on-calls
-• Effectively write blameless post-mortems
-• Develop a toil reduction plan
+- [Site Reliability Engineer](#4)
+- [Machine Learning Engineering with AWS Sagemaker](#5)
+- [Machine Learning DevOps](#6)
+- [Cloud Development with Microsoft Azure](#7)
+- [Cloud DevOps with Microsoft Azure](#8)
+- [Machine Learning Engineering with Microsoft Azure](#9)
+- [Data Architecture](#10)
+- [Data Engineering](#11)
+- [Data Streaming](#12)
+- [Data Science](#13)
+- [Deep Learning](#14)
+- [Deep Reinforcement Learning](#15)
+- [Natural Language Processing](#16)
+- [AI for Healthcare](#17)
 
 <a id='0'></a>
 ## Full Stack Web Development
@@ -151,6 +109,48 @@ Key skills demonstrated:
 - Working with eksctl and kubectl to build and deploy Kubernetes clusters
 
 <a id='4'></a>
+## Site Reliability Engineer
+
+### [Observing Cloud Resources](https://github.com/iDataist/Observing-Cloud-Resources)
+In this project, I configured a monitoring software stack to collect and display a variety of metrics for commonly used cloud resources. Additionally, I established and configured rules for alerting and set parameters to be notified. I also tested and observed the monitoring stack to apply SRE methodologies and practices.
+
+Key Skills Demonstrated:
+- Establish the Prometheus/Grafana monitoring stack
+- Create a dashboard for host metrics (latency, errors, CPU/RAM and Disk I/O) and app metrics
+- Create alerts for application (availability, latency) metrics, monitor an endpoint, and trigger an alert if the endpoint is down
+
+### [Deploying HA Infrastructure](https://github.com/iDataist/Deploying-High-Availability-Infrastructure)
+In this project, I designed and deployed HA infrastructure through Terraform and deployed it to AWS. First, I defined SLOs and SLIs and create a dashboard in Grafana for those objectives. Second, I created a disaster recovery plan and defined high-availability infrastructure. Lastly, I wrote Terraform scripts to deploy the infrastructure to multiple AWS regions.
+
+Key Skills Demonstrated:
+- Create SLI/SLO dashboards in Grafana which display these metrics in a way that can be consumed by non-technical personnel
+- Create a plan to allow for high availability by selecting optimal server geography and communication
+- Create a disaster recovery plan based on a designed
+high-availability environment
+- Use Terraform to create identical IT assets in different
+regions
+- Create full geo-replication and automated backups for SQL databases
+
+### [Deployment Roulett](https://github.com/iDataist/Deployment-Roulette)
+In this project, I deployed apps using different deployment strategies. Some of the microservices have scaling or availability issues, and some don’t have a deployment strategy in place. I identified failing applications and implement fixes to resolve the problems. I also created an architecture diagram that communicates the status of the cloud environment to improve the onboarding of future developers.
+
+Key Skills Demonstrated:
+- Implement rolling, canary, and blue-green deployment strategies
+- Automate microservice cluster scaling
+- Visualize self-healing system design by analyzing and creating diagrams
+
+### [Plan, Reduce, Repeat]()
+In this project, I participated in several mock scenarios as an SRE. In the first scenario, Release Night, I utilized capacity management skills and demonstrated how to maintain an as-built document. In the second scenario, I utilized on-call best practices to have an effective and productive on-call, completed with a post-mortem. Finally, in the third scenario, I developed a toil reduction and automation plan.
+
+Key Skills Demonstrated:
+• Mitigate capacity risks by utilizing capacity management
+best practice
+• Maintain an as-built document
+• Exhibit on-call best practices to have balanced and effective on-calls
+• Effectively write blameless post-mortems
+• Develop a toil reduction plan
+
+<a id='5'></a>
 ## Machine Learning Engineering with AWS Sagemaker
 
 ### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
@@ -169,7 +169,7 @@ Key Skills Demonstrated:
 - Model design and evaluation
 - Model deployment via SageMaker
 
-<a id='5'></a>
+<a id='6'></a>
 
 ## Machine Learning DevOps
 
@@ -209,7 +209,7 @@ Key Skills Demonstrated:
 - Set up automated reporting with APIs
 - Automate the DevOps processes required to score and re-deploy ML models
 
-<a id='6'></a>
+<a id='7'></a>
 ## Cloud Development with Microsoft Azure
 
 ### [Deploy a Content Management System to Azure](https://github.com/iDataist/Deploy-a-Content-Management-System-to-Azure)
@@ -245,7 +245,7 @@ Key Skills Demonstrated:
 - Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues
 - Creating alerts to trigger auto-scaling on an Azure Kubernetes Service (AKS) cluster
 
-<a id='7'></a>
+<a id='8'></a>
 
 ## Cloud DevOps with Microsoft Azure
 
@@ -272,7 +272,7 @@ Key Skills Demonstrated:
 - Building a CI/CD pipeline, which creates a test environment using Terraform, deploys an application to the test environment, and executes load, integration, and functional tests
 - Ingesting logs and data from tests into Azure Log Analytics to determine where failures may have occurred
 
-<a id='8'></a>
+<a id='9'></a>
 
 ## Machine Learning Engineering with Microsoft Azure
 
@@ -283,7 +283,7 @@ Key Skills Demonstrated:
 - Shipping machine learning models into production in a reliable, reproducible, and automated way
 - Enhancing observability by enabling Application Insights and logging
 
-<a id='9'></a>
+<a id='10'></a>
 
 ## Data Architecture
 
@@ -315,7 +315,7 @@ Created foundational data management tools and artifacts, including documenting 
 Key Skills Demonstrated:
 - Establish data governance best practices including metadata management, master data management and data quality management
 
-<a id='10'></a>
+<a id='11'></a>
 ## Data Engineering
 
 ### [Build Data Pipelines](https://github.com/iDataist/Build-ETL-Pipelines)
@@ -327,7 +327,7 @@ Key Skills Demonstrated:
 - Build the Data Lake with Spark
 - Automate the Data Pipeline with Apache Airflow
 
-<a id='11'></a>
+<a id='12'></a>
 ## Data Streaming
 ### [Data Ingestion with Kafka and Kafka Streaming](https://github.com/iDataist/Data-Ingestion-with-Kafka-and-Kafka-Streaming)
 I streamed public transit status from [Chicago Transit Authority](https://www.transitchicago.com/data/) using Kafka and the Kafka ecosystem and built a stream processing application that shows the status of trains in real-time. I used Confluent Kafka to produce events, REST Proxy to send events over HTTP, and Kafka Connect to collect data from a Postgres database, all of which are sources into Kafka. Then, I used KSQL to combine related data models into a single topic ready for consumption, and built a simple Python application that ingests data from the Kafka topics for analysis. Finally, I leveraged the Faust Python Stream Processing library to further transform train station data into a more streamlined representation. Using stateful processing, I showed whether passenger volume is increasing, decreasing, or staying steady.
@@ -346,7 +346,7 @@ Key Skills Demonstrated:
 - Creating a DataFrame as an aggregation of source DataFrames
 - Sinking a composite DataFrame to Kafka
 
-<a id='12'></a>
+<a id='13'></a>
 ## Data Science
 
 ### [Find Donors for Charity with Supervised Learning Algorithms](https://github.com/iDataist/Find-Donors-for-Charity)
@@ -389,7 +389,7 @@ Key Skills Demonstrated:
 - User-User Based Collaborative Filtering
 - Matrix Factorization
 
-<a id='13'></a>
+<a id='14'></a>
 ## Deep Learning
 
 ### [Build a Dog Identification App with Convolutional Neural Networks](https://github.com/iDataist/Build-a-Dog-Identification-App)
@@ -416,7 +416,7 @@ Key Skills Demonstrated:
 - Build and train a Deep Convolutional Generative Adversarial Network with PyTorch
 - Optimize hyperparameters
 
-<a id='14'></a>
+<a id='15'></a>
 ## Deep Reinforcement Learning
 
 ### [Navigation with Deep Q-Network](https://github.com/iDataist/Navigation-with-Deep-Q-Network)
@@ -440,7 +440,7 @@ Key Skills Demonstrated:
 - Implement a Multi-Agent Reinforcement Learning Algorithm
 - Build and train neural networks with PyTorch
 
-<a id='15'></a>
+<a id='16'></a>
 ## Natural Language Processing
 
 ### [Part of Speech Tagging](https://github.com/iDataist/Part-of-Speech-Tagging)
@@ -464,7 +464,7 @@ Key Skills Demonstrated:
 - Extract feature representations from raw audio
 - Build deep learning models to obtain a probability distribution over all potential transcriptions
 
-<a id='16'></a>
+<a id='17'></a>
 
 ## AI for Healthcare
 
