@@ -4,6 +4,7 @@
 - [Cloud Native Application Architecture](#1)
 - [AWS Cloud Architecture](#2)
 - [Cloud DevOps with AWS](#3)
+- [Site Reliability Engineer](#17)
 - [Machine Learning Engineering with AWS Sagemaker](#4)
 - [Machine Learning DevOps](#5)
 - [Cloud Development with Microsoft Azure](#6)
@@ -17,6 +18,48 @@
 - [Deep Reinforcement Learning](#14)
 - [Natural Language Processing](#15)
 - [AI for Healthcare](#16)
+
+<a id='17'></a>
+## Site Reliability Engineer
+
+### [Observing Cloud Resources](https://github.com/iDataist/Observing-Cloud-Resources)
+In this project, I configured a monitoring software stack to collect and display a variety of metrics for commonly used cloud resources. Additionally, I established and configured rules for alerting and set parameters to be notified. I also tested and observed the monitoring stack to apply SRE methodologies and practices.
+
+Key Skills Demonstrated:
+- Establish the Prometheus/Grafana monitoring stack
+- Create a dashboard for host metrics (latency, errors, CPU/RAM and Disk I/O) and app metrics
+- Create alerts for application (availability, latency) metrics, monitor an endpoint, and trigger an alert if the endpoint is down
+
+### [Deploying HA Infrastructure](https://github.com/iDataist/Deploying-High-Availability-Infrastructure)
+In this project, I designed and deployed HA infrastructure through Terraform and deployed it to AWS. First, I defined SLOs and SLIs and create a dashboard in Grafana for those objectives. Second, I created a disaster recovery plan and defined high-availability infrastructure. Lastly, I wrote Terraform scripts to deploy the infrastructure to multiple AWS regions.
+
+Key Skills Demonstrated:
+- Create SLI/SLO dashboards in Grafana which display these metrics in a way that can be consumed by non-technical personnel
+- Create a plan to allow for high availability by selecting optimal server geography and communication
+- Create a disaster recovery plan based on a designed
+high-availability environment
+- Use Terraform to create identical IT assets in different
+regions
+- Create full geo-replication and automated backups for SQL databases
+
+### [Deployment Roulett](https://github.com/iDataist/Deployment-Roulette)
+In this project, I deployed apps using different deployment strategies. Some of the microservices have scaling or availability issues, and some don’t have a deployment strategy in place. I identified failing applications and implement fixes to resolve the problems. I also created an architecture diagram that communicates the status of the cloud environment to improve the onboarding of future developers.
+
+Key Skills Demonstrated:
+- Implement rolling, canary, and blue-green deployment strategies
+- Automate microservice cluster scaling
+- Visualize self-healing system design by analyzing and creating diagrams
+
+### [Plan, Reduce, Repeat]()
+In this project, I participated in several mock scenarios as an SRE. In the first scenario, Release Night, I utilized capacity management skills and demonstrated how to maintain an as-built document. In the second scenario, I utilized on-call best practices to have an effective and productive on-call, completed with a post-mortem. Finally, in the third scenario, I developed a toil reduction and automation plan.
+
+Key Skills Demonstrated:
+• Mitigate capacity risks by utilizing capacity management
+best practice
+• Maintain an as-built document
+• Exhibit on-call best practices to have balanced and effective on-calls
+• Effectively write blameless post-mortems
+• Develop a toil reduction plan
 
 <a id='0'></a>
 ## Full Stack Web Development
