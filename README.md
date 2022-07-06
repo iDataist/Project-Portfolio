@@ -2,7 +2,7 @@
 
 - [Full Stack Web Development](#0)
 - [Cloud Native Application Architecture](#1)
-- [AWS Cloud Architecture](#2)
+- [AWS Cloud Architect](#2)
 - [Cloud DevOps with AWS](#3)
 - [Site Reliability Engineer](#4)
 - [Machine Learning Engineering with AWS Sagemaker](#5)
