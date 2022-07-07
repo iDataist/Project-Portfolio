@@ -139,7 +139,7 @@ Key Skills Demonstrated:
 - Automate microservice cluster scaling
 - Visualize self-healing system design by analyzing and creating diagrams
 
-### [Plan, Reduce, Repeat]()
+### [Plan, Reduce, Repeat](https://github.com/iDataist/Plan-Reduce-Repeat)
 In this project, I participated in several mock scenarios as an SRE. In the first scenario, Release Night, I utilized capacity management skills and demonstrated how to maintain an as-built document. In the second scenario, I utilized on-call best practices to have an effective and productive on-call, completed with a post-mortem. Finally, in the third scenario, I developed a toil reduction and automation plan.
 
 Key Skills Demonstrated:
