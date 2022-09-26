@@ -3,13 +3,13 @@
 - [Full Stack Web Development](#0)
 - [Cloud Native Application Architecture](#1)
 - [AWS Cloud Architect](#2)
-- [Cloud DevOps with AWS](#3)
-- [Site Reliability Engineer](#4)
-- [Machine Learning Engineering with AWS Sagemaker](#5)
-- [Machine Learning DevOps](#6)
-- [Cloud Development with Microsoft Azure](#7)
-- [Cloud DevOps with Microsoft Azure](#8)
-- [Machine Learning Engineering with Microsoft Azure](#9)
+- [Cloud Development with Microsoft Azure](#3)
+- [Cloud DevOps with AWS](#4)
+- [Cloud DevOps with Microsoft Azure](#5)
+- [Site Reliability Engineer](#6)
+- [Machine Learning Engineering with AWS Sagemaker](#7)
+- [Machine Learning Engineering with Microsoft Azure](#8)
+- [Machine Learning DevOps](#9)
 - [Data Architecture](#10)
 - [Data Engineering](#11)
 - [Data Streaming](#12)
@@ -52,6 +52,7 @@ Key Skills Demonstrated:
 - Deploying a Docker container to a Kubernetes cluster using Amazon EKS and the AWS command line interface (CLI)
 - Implementing Continuous Integration (CI) and Continuous Delivery (CD) with AWS CloudFormation, AWS CodePipeline and AWS CodeBuild
 
+
 <a id='1'></a>
 ## Cloud Native Application Architecture
 
@@ -64,10 +65,71 @@ Key Skills Demonstrated:
 - Using template configuration managers, such as Helm, to implement the parameterization of Kubernetes declarative manifests
 - Automating the release process for an application by implementing a CI/CD pipeline with GitHub Actions and ArgoCD
 
+
 <a id='2'></a>
 ## AWS Cloud Architect
 
+### [Recoverability in AWS](https://github.com/iDataist/Recoverability-In-AWS)
+Created highly available and resilient infrastructures.
+
+Key Skills Demonstrated:
+- Building a multi-availability zone, multi-region database, and migrating the primary database from one geographical region to another
+- Creating a versioned website, with an ability to turn-back-the-clock when something disrupts the normal operations
+
+### [Design, Provision, and Monitor AWS Infrastructure at Scale](https://github.com/iDataist/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale)
+Planed, designed, provisioned, and monitored infrastructure in AWS using industry-standard and open source tools.
+
+Key Skills Demonstrated:
+- Optimizing infrastructure for cost and performance
+- Using Terraform to provision and configure AWS services in a global configuration
+
+### [Securing the Recipe Vault Application](https://github.com/iDataist/Secure-the-Recipe-Vault-Web-Application)
+Deployed and assessed the security posture of a web application environment.
+
+Key Skills Demonstrated:
+- Testing the security of an environment by simulating an attack scenario and exploiting cloud configuration vulnerabilities
+- Setting up monitoring to identify suspicious behavior and vulnerable configurations 
+- Remediating the identified misconfigurations
+
+
 <a id='3'></a>
+## Cloud Development with Microsoft Azure
+
+### [Deploy a Content Management System to Azure](https://github.com/iDataist/Deploy-a-Content-Management-System-to-Azure)
+Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles.
+
+Key Skills Demonstrated:
+- Deploying storage solutions for the application to interact with, including a SQL database that contains a user table and an article table for the web app to query, and a Blob Storage container where images are stored
+- Configuring “Sign in with Microsoft” for authentication using OAuth 2.0 and Azure Active Directory, in addition to a simple username/ password login
+- Adding logging to the cloud application to track successful or unsuccessful login attempts
+
+### [Deploy the Neighborly App with Azure Functions](https://github.com/iDataist/Deploy-the-Neighborly-App-with-Azure-Functions)
+Implemented a serverless microservice backend architecture for a social networking web application called Neighborly, a service for neighbors to exchange helpful information, goods, and services.
+
+Key Skills Demonstrated:
+- Building the backend services that leverage an API to communicate with a MongoDB database
+- Integrating the client-side application and server-side API endpoints
+- Deploying and managing the service with Azure Kubernetes Service for CI/CD integration
+
+### [Migrate Tech Conference App to Azure](https://github.com/iDataist/Migrate-Tech-Conference-App-to-Azure)
+Migrated a pre-existing conference registration system to Azure and architected a resilient and scalable system in Azure.
+
+Key Skills Demonstrated:
+- Migrating and deploying pre-existing web apps to an Azure App Service
+- Migrating PostgreSQL database backups to Azure Postgres database instances
+- Refactoring the notification logic to Azure Function via service bus queue messages
+
+### [Enhance Applications](https://github.com/iDataist/Enhance-Applications)
+Collected and displayed performance and health data about an application post-migration to Azure.
+
+Key Skills Demonstrated:
+- Setting up Application Insights monitoring on virtual machine scale set (VMSS)
+- Implementing monitoring in applications to collect telemetry data
+- Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues
+- Creating alerts to trigger auto-scaling on an Azure Kubernetes Service (AKS) cluster
+
+
+<a id='4'></a>
 ## Cloud DevOps with AWS
 
 ### [Deploy Static Website on AWS](https://github.com/iDataist/Deploy-Static-Website-on-AWS)
@@ -78,6 +140,7 @@ Key skills demonstrated:
 - Creating an S3 bucket, configuring the bucket for website hosting, and securing it using IAM policies
 - Uploading the website files to S3 bucket and speeding up content delivery using AWS’s content distribution network service, CloudFront
 - Accessing the website in a browser using the unique S3 endpoint
+
 ### [Deploy a High Availability Web App using CloudFormation](https://github.com/iDataist/Deploy-a-High-Availability-Web-App-using-CloudFormation)
 Deployed web servers for a highly available web app using CloudFormation.
 
@@ -108,7 +171,35 @@ Key skills demonstrated:
 - Building Docker containers in the pipelines
 - Working with eksctl and kubectl to build and deploy Kubernetes clusters
 
-<a id='4'></a>
+
+<a id='5'></a>
+## Cloud DevOps with Microsoft Azure
+
+### [Deploy a Scalable IaaS Web Server in Azure](https://github.com/iDataist/Deploy-a-Scalable-IaaS-Web-Server-in-Azure)
+Wrote infrastructure as code using Packer and Terraform to deploy a customizable, scalable web server in Azure.
+
+Key Skills Demonstrated:
+- Creating tagging policies
+- Creating and deploying customized web server images with Packer
+- Writing the infrastructure configuration with Terraform and creating load-balanced web servers
+
+### [Deploy a Flask Machine Learning App to Azure App Services with a CI/CD Pipeline](https://github.com/iDataist/Deploy-a-Flask-Machine-Learning-App-to-Azure-App-Services-with-a-CI-CD-Pipeline)
+Built a CI/CD pipeline that deploys a Flask Machine Learning application to Azure App Services with GitHub Actions and Azure DevOps.
+
+Key Skills Demonstrated:
+- Leveraging GitHub actions to implement continuous integration that includes install, lint, and test steps
+- Using the Azure pipeline for continuous delivery that deploys a Flask Machine Learning application
+- Testing the prediction capability of the machine learning application by giving it a JSON payload
+
+### [Ensure Quality Releases](https://github.com/iDataist/Ensure-Quality-Releases)
+Created a disposable test environment and ran a variety of automated tests.
+
+Key Skills Demonstrated:
+- Building a CI/CD pipeline, which creates a test environment using Terraform, deploys an application to the test environment, and executes load, integration, and functional tests
+- Ingesting logs and data from tests into Azure Log Analytics to determine where failures may have occurred
+
+
+<a id='6'></a>
 ## Site Reliability Engineer
 
 ### [Observing Cloud Resources](https://github.com/iDataist/Observing-Cloud-Resources)
@@ -150,7 +241,8 @@ best practice
 - Effectively write blameless post-mortems
 - Develop a toil reduction plan
 
-<a id='5'></a>
+
+<a id='7'></a>
 ## Machine Learning Engineering with AWS Sagemaker
 
 ### [Deploy a Sentiment Analysis Model with SageMaker](https://github.com/iDataist/Deploy-a-Sentiment-Analysis-Model-with-SageMaker)
@@ -169,19 +261,28 @@ Key Skills Demonstrated:
 - Model design and evaluation
 - Model deployment via SageMaker
 
-<a id='6'></a>
 
+<a id='8'></a>
+## Machine Learning Engineering with Microsoft Azure
+
+### [Operationalize Machine Learning](https://github.com/iDataist/Operationalize-Machine-Learning)
+Leveraged Azure AutoML to build classifiers that predict whether the client will subscribe to a term deposit with the bank, and deployed the best model to an Azure Container Instance (ACI).
+
+Key Skills Demonstrated:
+- Shipping machine learning models into production in a reliable, reproducible, and automated way
+- Enhancing observability by enabling Application Insights and logging
+
+
+<a id='9'></a>
 ## Machine Learning DevOps
 
 ### [Apply Clean Code Principles](https://github.com/iDataist/Apply-Clean-Code-Principles)
-
 I applied the clean code principles (modular, documented, and tested) to implement a classifier that predicts customer churn.
 
 Key Skills Demonstrated:
 - Write production-ready code
 
 ### [Build an ML Pipeline for Short-Term Rental Prices in NYC](https://github.com/iDataist/Building-a-Reproducible-Model-Workflow)
-
 A property management company rents rooms and properties for short periods on various rental platforms. The company needs to estimate the typical price for a given property based on the price of similar properties. New data arrives in bulk every week. I built a pipeline covering data fetching, validation, segregation, train and validation, test, and release. The end-to-end pipeline enables the model retraining with the same cadence.
 
 Key Skills Demonstrated:
@@ -209,82 +310,8 @@ Key Skills Demonstrated:
 - Set up automated reporting with APIs
 - Automate the DevOps processes required to score and re-deploy ML models
 
-<a id='7'></a>
-## Cloud Development with Microsoft Azure
-
-### [Deploy a Content Management System to Azure](https://github.com/iDataist/Deploy-a-Content-Management-System-to-Azure)
-Deployed an article content management system (CMS) application to Microsoft Azure. The CMS system lets a user log in, view published articles, and post new articles.
-
-Key Skills Demonstrated:
-- Deploying storage solutions for the application to interact with, including a SQL database that contains a user table and an article table for the web app to query, and a Blob Storage container where images are stored
-- Configuring “Sign in with Microsoft” for authentication using OAuth 2.0 and Azure Active Directory, in addition to a simple username/ password login
-- Adding logging to the cloud application to track successful or unsuccessful login attempts
-
-### [Deploy the Neighborly App with Azure Functions](https://github.com/iDataist/Deploy-the-Neighborly-App-with-Azure-Functions)
-Implemented a serverless microservice backend architecture for a social networking web application called Neighborly, a service for neighbors to exchange helpful information, goods, and services.
-
-Key Skills Demonstrated:
-- Building the backend services that leverage an API to communicate with a MongoDB database
-- Integrating the client-side application and server-side API endpoints
-- Deploying and managing the service with Azure Kubernetes Service for CI/CD integration
-
-### [Migrate Tech Conference App to Azure](https://github.com/iDataist/Migrate-Tech-Conference-App-to-Azure)
-Migrated a pre-existing conference registration system to Azure and architected a resilient and scalable system in Azure.
-
-Key Skills Demonstrated:
-- Migrating and deploying pre-existing web apps to an Azure App Service
-- Migrating PostgreSQL database backups to Azure Postgres database instances
-- Refactoring the notification logic to Azure Function via service bus queue messages
-
-### [Enhance Applications](https://github.com/iDataist/Enhance-Applications)
-Collected and displayed performance and health data about an application post-migration to Azure.
-
-Key Skills Demonstrated:
-- Setting up Application Insights monitoring on virtual machine scale set (VMSS)
-- Implementing monitoring in applications to collect telemetry data
-- Creating auto-scaling for VMSS and using RunBook to automate the resolution of performance issues
-- Creating alerts to trigger auto-scaling on an Azure Kubernetes Service (AKS) cluster
-
-<a id='8'></a>
-
-## Cloud DevOps with Microsoft Azure
-
-### [Deploy a Scalable IaaS Web Server in Azure](https://github.com/iDataist/Deploy-a-Scalable-IaaS-Web-Server-in-Azure)
-Wrote infrastructure as code using Packer and Terraform to deploy a customizable, scalable web server in Azure.
-
-Key Skills Demonstrated:
-- Creating tagging policies
-- Creating and deploying customized web server images with Packer
-- Writing the infrastructure configuration with Terraform and creating load-balanced web servers
-
-### [Deploy a Flask Machine Learning App to Azure App Services with a CI/CD Pipeline](https://github.com/iDataist/Deploy-a-Flask-Machine-Learning-App-to-Azure-App-Services-with-a-CI-CD-Pipeline)
-Built a CI/CD pipeline that deploys a Flask Machine Learning application to Azure App Services with GitHub Actions and Azure DevOps.
-
-Key Skills Demonstrated:
-- Leveraging GitHub actions to implement continuous integration that includes install, lint, and test steps
-- Using the Azure pipeline for continuous delivery that deploys a Flask Machine Learning application
-- Testing the prediction capability of the machine learning application by giving it a JSON payload
-
-### [Ensure Quality Releases](https://github.com/iDataist/Ensure-Quality-Releases)
-Created a disposable test environment and ran a variety of automated tests.
-
-Key Skills Demonstrated:
-- Building a CI/CD pipeline, which creates a test environment using Terraform, deploys an application to the test environment, and executes load, integration, and functional tests
-- Ingesting logs and data from tests into Azure Log Analytics to determine where failures may have occurred
-
-<a id='9'></a>
-
-## Machine Learning Engineering with Microsoft Azure
-
-### [Operationalize Machine Learning](https://github.com/iDataist/Operationalize-Machine-Learning)
-Leveraged Azure AutoML to build classifiers that predict whether the client will subscribe to a term deposit with the bank, and deployed the best model to an Azure Container Instance (ACI).
-
-Key Skills Demonstrated:
-- Shipping machine learning models into production in a reliable, reproducible, and automated way
-- Enhancing observability by enabling Application Insights and logging
 
 <a id='10'></a>
-
 ## Data Architecture
 
 ### [Human Resources Database Design](https://github.com/iDataist/Human-Resources-Database-Design)
@@ -465,7 +492,6 @@ Key Skills Demonstrated:
 - Build deep learning models to obtain a probability distribution over all potential transcriptions
 
 <a id='17'></a>
-
 ## AI for Healthcare
 
 ### [Pneumonia Detection from Chest X-Rays](https://github.com/iDataist/Pneumonia-Detection-from-Chest-Xray)
