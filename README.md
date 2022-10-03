@@ -152,7 +152,7 @@ Key skills demonstrated:
 Built a CI/CD pipeline using CircleCI and Ansible.
 
 Key skills demonstrated:
-- Creating a pipeline that spins up three servers and uses Ansible to deploy an application on the servers
+- Creating a pipeline that spins up three servers and uses Ansible to configure them
 - Using the “Blue/Green” deployment strategy to deploy additional features to those servers
 
 ### [Deploy a Flask App Using Kubernetes](https://github.com/iDataist/Deploy-a-Flask-App-Using-Kubernetes)
