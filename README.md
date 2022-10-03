@@ -74,10 +74,10 @@ Created highly available and resilient infrastructures.
 
 Key Skills Demonstrated:
 - Building a multi-availability zone, multi-region database, and migrating the primary database from one geographical region to another
-- Creating a versioned website, with an ability to turn-back-the-clock when something disrupts the normal operations
+- Creating a versioned website, with the ability to turn back the clock when something disrupts the normal operations
 
 ### [Design, Provision, and Monitor AWS Infrastructure at Scale](https://github.com/iDataist/Design-Provision-and-Monitor-AWS-Infrastructure-at-Scale)
-Planed, designed, provisioned, and monitored infrastructure in AWS using industry-standard and open source tools.
+Planned, designed, provisioned, and monitored infrastructure in AWS using industry-standard and open source tools.
 
 Key Skills Demonstrated:
 - Optimizing infrastructure for cost and performance
